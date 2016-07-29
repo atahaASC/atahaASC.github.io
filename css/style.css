@@ -1,0 +1,27 @@
+html{
+    background-color: black;
+}
+body {
+    font-size: 0px;
+    margin:auto;
+}
+header {
+    background: black;
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Bungee Outline', cursive;
+    color: rgba(235, 0, 235, 1);
+}
+.headbutton {
+    background-color: black;
+    border: none;
+    font-size: 35px;
+    margin: 0px;
+    font-family: 'Bungee Hairline', cursive;
+    color: rgba(255, 0, 255, 1);
+}
+.headbutton:hover {
+    color: rgba(250, 0, 250, 0.6);
+}
