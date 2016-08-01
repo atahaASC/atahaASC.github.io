@@ -9,14 +9,21 @@
 
     <body>
         <header>
-            <h1>Ahnaf Taha</h1>
+            <h1 class="headline">Ahnaf Taha</h1>
             <ul>
-                <li><button class="headbutton">Coder</button></li>
-                <li><button class="headbutton">Entrepreneur</button></li>
-                <li><button class="headbutton" onclick="playMusic()">Desiigner</button></li>
+                <li><button class="headbutton" id="coder">Coder</button></li>
+                <li><button class="headbutton" id="entre">Entrepreneur</button></li>
+                <li><button class="headbutton" id="design" onclick="playMusic()">Desiigner</button></li>
             </ul>
         </header>
+
+        <div class="coding" id="coding">
+            <h1 class="codeline">Coder</h1>
+            <h2>Python, JavaScript, Lua</h2>
+        </div>
+
         <audio id="audio" src="panda.mp3" ></audio>
         <script src="js/script.js"></script>
+        <script   src="https://code.jquery.com/jquery-3.1.0.slim.js"   integrity="sha256-L6ppAjL6jgtRmfiuigeEE5AwNI2pH/X9IBbPyanJeZw="   crossorigin="anonymous"></script>
     </body>
 </html>

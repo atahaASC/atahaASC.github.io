@@ -1,5 +1,4 @@
 var audioNotOpen = true;
-
 var audio = document.getElementById("audio");
 
 function playMusic(){
